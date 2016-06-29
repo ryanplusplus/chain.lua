@@ -7,10 +7,6 @@ local function get_env(f)
   until name == nil
 end
 
-local function select(n, ...)
-  return table.pack(...)[n]
-end
-
 local function add_to_function_env(f, to_add)
   local f_env = get_env(f)
   if f_env then
