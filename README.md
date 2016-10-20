@@ -10,7 +10,7 @@ end)
 example(1).foo(2, 3).bar(4) --> 10
 ```
 
-## With Upvalues
+## With Upvalues (Lua >=5.2)
 ```lua
 local example = chain('a').foo('b', 'c').bar('d')(function(args)
   return a + b + c + d
