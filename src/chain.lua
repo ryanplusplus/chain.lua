@@ -1,3 +1,13 @@
+--[[lit-meta
+  name = 'ryanplusplus/chain'
+  version = '1.0.2'
+  description = 'Library for easily building chained calls in Lua.'
+  tags = {}
+  license = 'MIT'
+  author = { name = 'Ryan Hartlage' }
+  homepage = 'https://github.com/ryanplusplus/chain.lua'
+]]
+
 local function get_env(f)
   local level = 1
   repeat
