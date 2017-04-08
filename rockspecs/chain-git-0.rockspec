@@ -1,8 +1,8 @@
 package = 'chain'
 version = 'git-0'
 source = {
-  url = 'git://github.com/ryanplusplus/chain.lua.git',
-  dir = 'src'
+  url = 'https://github.com/ryanplusplus/chain.lua/archive/master.zip',
+  dir = 'chain.lua-master/src'
 }
 description = {
   summary = 'Library for easily building chained calls in Lua.',
