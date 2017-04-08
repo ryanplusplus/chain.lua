@@ -4,7 +4,7 @@ source = {
   url = 'git://github.com/ryanplusplus/chain.lua.git'
 }
 description = {
-  summary = ' Library for easily building chained calls in Lua.',
+  summary = 'Library for easily building chained calls in Lua.',
   homepage = 'https://github.com/ryanplusplus/chain.lua/',
   license = 'MIT <http://opensource.org/licenses/MIT>'
 }
